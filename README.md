@@ -224,9 +224,7 @@ docker exec u1 ping -c 4 172.18.0.2
 En las capturas finales de la práctica se observa que las dos pruebas
 reciben respuesta y terminan con un **0 % de pérdida de paquetes**.
 
-## 9. Resultado final
-
-La práctica queda completada:
+## 9. Conclusión 
 
 -   Se han creado dos redes Docker de tipo bridge.
 -   Se han creado dos contenedores Ubuntu 20.04.
@@ -236,16 +234,6 @@ La práctica queda completada:
     `docker network connect`.
 -   Se ha comprobado que `u1` puede comunicarse con `u2` por nombre y
     por dirección IP.
-
-## 10. Evidencias
-
-Las capturas de pantalla de la práctica se encuentran en el documento
-PDF original:
-
--   Creación de las redes y del primer contenedor: páginas 1 y 2.
--   Creación del segundo contenedor: páginas 3 y 4.
--   Comprobación de redes y aislamiento: páginas 4, 5 y 6.
--   Conexión final y pruebas de ping satisfactorias: páginas 6 y 7.
 
 ------------------------------------------------------------------------
 
